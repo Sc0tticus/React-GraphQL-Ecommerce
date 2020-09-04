@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "cluster0.gz1wb.mongodb.net",
+        "srv": "true",
+        "port": 27017,
+        "database": "server",
+        "username": "ScottSinger",
+        "password": "SquatMantis1"
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": true
+      }
+    }
+  }
+}
